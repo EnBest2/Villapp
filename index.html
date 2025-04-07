@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VillanyTerv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>VillanyTerv - Kapcsolási rajz készítő</h1>
+    <canvas id="rajzvaszon" width="800" height="600"></canvas>
+    <div class="tools">
+        <button onclick="addSymbol('kapcsolo')">Kapcsoló</button>
+        <button onclick="addSymbol('dugalj')">Dugalj</button>
+        <button onclick="addSymbol('lampa')">Lámpa</button>
+        <button onclick="drawLine()">Vezeték</button>
+        <button onclick="clearCanvas()">Törlés</button>
+        <button onclick="saveImage()">Mentés képként</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
